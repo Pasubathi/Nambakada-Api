@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Page</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      background-repeat: no-repeat;
+      padding-bottom: 50px;
+      width: 100%;
+      margin-top: 0px;
+      background-image: url("https://hopeupassets.s3.us-east-2.amazonaws.com/Group2430.png");
+      background-position: center;
+      background-size: 1200px 1100px;
+      background-size: contain;
+    }
+
+    .emailBody {
+      background-size: 1200px 1100px;
+      padding: 10px;
+    }
+
+    .container {
+      padding: 2px 16px;
+    }
+
+    .logoCenter {
+      width: 20%;
+      margin: 0 auto;
+    }
+
+    .logoImgA {
+      width: 50%;
+      margin-top: 100px;
+      padding-left: 70px;
+    }
+
+    .mainCard {
+      width: 800px;
+      margin: 0 auto;
+      padding-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .card-image {
+      border-radius: 20px;
+    }
+
+    .card-image img {
+      width: 100%;
+    }
+
+    .shippingBody {
+      background-color: white;
+      padding-top: -110px;
+    }
+
+    .shippingBody h1 {
+      font-weight: 600;
+    }
+
+    .shippingBodyE h4 {
+      font-size: 30px;
+    }
+
+    .shippingBodyE {
+      align-items: center;
+      text-align: center;
+    }
+
+    .changeColorP {
+      color: rgb(9, 38, 124);
+      font-size: 24px;
+      padding-top: 20px;
+    }
+
+    .btnEmail button {
+      padding: 13px 55px 13px 55px;
+      border-radius: 20px;
+      background-color: rgb(9, 38, 124);
+      color: #FFFFFF;
+      border: rgb(9, 38, 124);
+      font-size: 15px;
+    }
+
+    .footerCard {
+      color: white;
+      background-color: rgb(9, 38, 124);
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      align-content: center;
+      border-radius: 0px 0px 15px 15px;
+    }
+
+    .fDivOne {
+      font-size: 17px;
+      margin: 0 auto;
+      width: 40%;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .logoImg {
+        align-items: center;
+        position: absolute;
+        top: 90px;
+        z-index: 100;
+        align-self: center;
+      }
+
+      .logoCenter {
+        align-items: center;
+        width: 79%;
+        margin: 0 auto;
+      }
+
+      .logoImgA {
+        width: 30%;
+        margin-left: 45px;
+        position: static;
+      }
+
+      .mainCard {
+        width: 100%;
+        margin-bottom: 50px;
+
+      }
+
+      .changeColorPR {
+        font-size: 20px;
+      }
+
+      .fDivOne {
+        width: 55%;
+        font-size: 15px;
+      }
+
+      .fDivTwo {
+        font-size: 20px;
+        font-weight: 600;
+        width: 70%;
+        margin: 0 auto;
+      }
+    }
+  </style>
+</head>
+
+<body class="emailBody" style="background-image: url('https://hopeupassets.s3.us-east-2.amazonaws.com/Group2430.png');">
+
+  <div class="logoImg">
+    <div class="logoCenter">
+      <img src="https://hopeupassets.s3.us-east-2.amazonaws.com/logo.png" class="logoImgA" alt="">
+    </div>
+  </div>
+  <div class="card mainCard cardEmail">
+
+
+    <div class="card-image" style=" top: 20px;">
+
+      <img src="https://hopeupassets.s3.us-east-2.amazonaws.com/Mask.png" alt="Avatar">
+    </div>
+
+
+    <div class="container shippingBody shippingBodyE">
+      <h4>Verify your email address</h4>
+      <p class="changeColorP changeColorPR">Welcome to Hope Up</p>
+
+      <p>
+        <%= ejs_data.text %>
+      </p>
+
+
+
+      <!-- <div class="btnEmail">
+        <button>CONFIRM EMAIL</button>
+      </div>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, perspiciatis dignissimos? Expedita quod quasi
+        odit sapiente ducimus quibusdam non, sit, commodi neque quas vitae minus iste rem quisquam odio itaque!
+      </p> -->
+
+
+    </div>
+    <div class="card-footer footerCard">
+      <div class="fDivOne">
+        <div>Copyright @ 2021 Hope Up</div>
+        <div class="fDivTwo">
+          <div>HOPE UP</div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

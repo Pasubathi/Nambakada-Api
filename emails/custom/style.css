@@ -1,0 +1,292 @@
+
+
+body {
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  width: 100%;
+  margin-top: 0px;
+  background-image: url('assets/Assets/Group\ 2430.png') ;
+  background-position: center;
+  background-size: 1200px 1100px;
+  background-size: contain;
+  
+}
+
+.mainCard {
+  width: 800px;
+  /* Add shadows to create the "card" effect */
+  /* width: 600px; */
+  /* width: 70%; */
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  /* margin-top: 80px; */
+  
+}
+
+/* On mouse-over, add a deeper shadow */
+/* .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} */
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+.shippingBody {
+  background-color: white;
+  padding-top: -110px;
+  
+}
+
+.shippingBody h1 {
+  font-weight: 600;
+}
+
+
+.changeColorP {
+  color: rgb(9, 38, 124);
+  font-size: 24px;
+  padding-top: 20px;
+}
+/* 
+.shippingBody p {
+  font-size: 17px;
+} */
+
+.mobImg img {
+  width: 100px;
+  height: 80px;
+}
+
+.backColorTh {
+  color: white;
+  /* background-color: blue; */
+  background-color: rgb(9, 38, 124);
+  border: 2px solid black;
+}
+
+.backColorTr {
+  /* background-color: blue; */
+  background-color: rgb(9, 38, 124);
+  font-size: 20px;
+
+}
+
+.mainTable {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 7px;
+  width: 100%;
+  height: 200px;
+
+}
+
+.firstLeft {
+  border-radius: 7px 0px 0px 7px;
+}
+.secondLeft {
+  border-radius: 0px 7px 7px 0px;
+
+}
+
+.innerCont {
+  text-align: center;
+  font-size:20;
+}
+
+.btmImage img{
+  position: cover;
+  width: 550px;
+  height: 314px;
+}
+
+/* .btmImage {
+  border: 2px solid gold;
+} */
+
+.btmImage h2 {
+  color: rgb(9, 38, 124);
+}
+
+.btmImage img {
+  background-color: 2px solid aqua;
+}
+
+.card-image {
+  border-radius: 20px;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.logoImgA {
+  margin: 0 auto; 
+  width: 50%; 
+  position: relative; 
+  top: 100px;
+  padding-left: 70px;
+}
+
+.footerCard {
+  color: white;
+  background-color: rgb(9, 38, 124);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.fDivOne {
+  font-size: 17px;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.fDivTwo{
+  font-size: 20px;
+  font-weight: 600;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logoCenter {
+  width: 20%; 
+  margin: 0 auto;
+}
+
+.changeColorP2 {
+  font-size: 19px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: fit-content;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-size: 475px 1280px;
+    /* border: 2px solid red; */
+    /* background-repeat: no-repeat; */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mainCard {
+    width: 100%;
+    margin-bottom: 50px;
+    
+  }
+  .btmImage img{
+    width: 100%;
+    height: 50%;
+  }
+  .fDivOne {
+    width: 55%;
+    font-size: 15px;
+  }
+  /* .fDivTwo {
+
+  } */
+  .mainTable {
+    font-size: 8px;
+    width: 5%;
+  }
+  .logoImgA {
+    width: 100%;
+    /* margin: 0 auto; */
+  }
+  .backColorTr {
+    font-size: 10px;
+  }
+  .innerCont {
+    font-size: 8px;
+  }
+  .logoCenter {
+    align-items: center;
+    width: 79%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+  }
+  .logoImgA{
+    /* padding-right: 50px; */
+    /* margin-right: 30px; */
+    width: 30%;
+    /* border: 5px solid  firebrick; */
+    /* padding-right: 80px; */
+    margin-left: 45px;
+    position: static;
+  }
+  .logoImg {
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    top: 90px;
+  }
+  .changeColorP {
+    font-size: 16px;
+  }
+
+  .changeColorP2{
+    font-size: 14px;
+  }
+  
+  .changeColorPR {
+    font-size: 20px;
+  }
+}
+
+
+/* mediaquer end */
+
+.shippingBodyE h4 {
+  font-size: 30px;
+}
+.shippingBodyE {
+  align-items: center;
+  text-align: center;
+}
+
+.btnEmail button {
+  padding: 13px 55px 13px 55px ;
+  border-radius: 20px;
+  background-color: rgb(9, 38, 124);
+  color: #FFFFFF;
+  border: rgb(9, 38, 124);
+  font-size: 15px;
+
+}
+
+/* .cardEmail {
+  padding-right: 10px;
+} */
+
+/* .cardPassword {
+  padding-right: 17px;
+} */
+
+.bodyForgot {
+  background-size: 1200px 1200px;
+  padding: 0;
+  margin: 0;
+}
+
+.emailBody {
+  background-size: 1200px 1100px;
+  padding: 0;
+
+}
+
+
+.orderBody {
+  background-size: 1200px 2100px;
+  padding: 0;
+}
+
+.listItem {
+  font-size: 20px;
+  padding-bottom: 8px;
+}
